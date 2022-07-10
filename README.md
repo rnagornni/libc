@@ -1,11 +1,24 @@
 # libc
-Another x86 libc(C17 ballot) Linux/BSD POSIX? implementation for fun and profit.
-The idea of this project is to create from scratch the lib C[^1], based on the Lib C proposal[^2].
+It is a x86 libc(C17 ballot) Linux/BSD POSIX? implementation for fun and profit.
+The project's idea is to create from scratch the lib C[^1], based on the Lib C proposal[^2].
 
-# Header Files WIP
+# Keyworkds
+|auto|extern|short|while|
+|break|float|signed|_Alignas|
+|case|for|sizeof|_Alignof|
+|char|goto|static|_Atomic|
+|const|if|struct|_Bool|
+|continue|inline|switch|_Complex|
+|default|int|typedef|_Generic|
+|do|long|union|_Imaginary|
+|double|register|unsigned|_Noreturn|
+|else|restrict|void|_Static_assert|
+|enum|return|volatile|_Thread_local|
+
+# Headers
 
 | Header | Implementation Status |
-|--------|--------|
+|:--------|--------:|
 |assert.h| 100%|
 |complex.h| 0% |
 |ctype.h| 0%|
@@ -38,5 +51,5 @@ The idea of this project is to create from scratch the lib C[^1], based on the L
 
 
 #References
-[^1] https://www.iso-9899.info/wiki/The_Standard
-[^2] https://web.archive.org/web/20181230041359if_/http://www.open-std.org/jtc1/sc22/wg14/www/abq/c17_updated_proposed_fdis.pdf
+[^1]: https://www.iso-9899.info/wiki/The_Standard
+[^2]: https://web.archive.org/web/20181230041359if_/http://www.open-std.org/jtc1/sc22/wg14/www/abq/c17_updated_proposed_fdis.pdf
