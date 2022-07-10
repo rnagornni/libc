@@ -17,6 +17,40 @@ The project's idea is to create from scratch the lib C[^1], based on the Lib C p
 |else|restrict|void|_Static_assert|
 |enum|return|volatile|_Thread_local|
 
+# Storage-clas specifiers
+ typedef
+ extern
+ static
+ _Thread_local
+ auto
+ register
+
+# Type specifiers
+ void
+ char
+ short
+ int
+ long
+ float
+ double
+ signed
+ unsigned
+ _Bool
+ _Complex
+
+# Function Specifiers
+ _Noreturn
+ inline
+
+# Type qualifiers
+ const
+ restrict
+ volatile
+ _Atomic
+
+# Alignment specifier
+ _Alignas (type-name|constant-expression)
+
 # Headers
 
 | Header | Implementation Status |
