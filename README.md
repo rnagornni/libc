@@ -3,6 +3,8 @@ It is a x86 libc(C17 ballot) Linux/BSD POSIX? implementation for fun and profit.
 The project's idea is to create from scratch the lib C[^1], based on the Lib C proposal[^2].
 
 # Keyworkds
+|||||
+|---|---|---|---|
 |auto|extern|short|while|
 |break|float|signed|_Alignas|
 |case|for|sizeof|_Alignof|
@@ -50,6 +52,6 @@ The project's idea is to create from scratch the lib C[^1], based on the Lib C p
 |wctype.h|0%|
 
 
-#References
+# References
 [^1]: https://www.iso-9899.info/wiki/The_Standard
 [^2]: https://web.archive.org/web/20181230041359if_/http://www.open-std.org/jtc1/sc22/wg14/www/abq/c17_updated_proposed_fdis.pdf
