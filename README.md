@@ -1,5 +1,5 @@
 # libc
-It is a x86 libc(C17 ballot) Linux/BSD POSIX? implementation for fun and profit.
+It is a x86 libc(C17 ballot) Linux/BSD implementation for fun and profit.
 The project's idea is to create from scratch the lib C[^1], based on the Lib C proposal[^2].
 
 # Keyworkds
@@ -19,33 +19,52 @@ The project's idea is to create from scratch the lib C[^1], based on the Lib C p
 
 # Storage-clas specifiers
  typedef
+
  extern
+
  static
+
  _Thread_local
+
  auto
+
  register
 
 # Type specifiers
  void
+
  char
+
  short
+
  int
+
  long
+
  float
+
  double
+
  signed
+
  unsigned
+
  _Bool
+
  _Complex
 
 # Function Specifiers
  _Noreturn
+
  inline
 
 # Type qualifiers
  const
+
  restrict
+
  volatile
+
  _Atomic
 
 # Alignment specifier
