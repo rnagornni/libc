@@ -74,14 +74,14 @@ The project's idea is to create from scratch the lib C[^1], based on the Lib C p
 
 | Header | Implementation Status |
 |:--------|--------:|
-|assert.h| 100%|
+|assert.h| wip |
 |complex.h| 0% |
 |ctype.h| 0%|
-|errno.h| 100%|
+|errno.h| wip|
 |fenv.h|0%|
 |float.h|0%|
 |inttypes.h|0%|
-|iso646.h|100%|
+|iso646.h|wip|
 |limits.h|0%|
 |locale.h|0%|
 |math.h|0%|
@@ -95,7 +95,7 @@ The project's idea is to create from scratch the lib C[^1], based on the Lib C p
 |stdint.h|0%|
 |stdio.h|0%|
 |stdlib.h|0%|
-|stdnoreturn.h|100%|
+|stdnoreturn.h|wip|
 |string.h|0%|
 |tgmath.h|0%|
 |threads.h|0%|
